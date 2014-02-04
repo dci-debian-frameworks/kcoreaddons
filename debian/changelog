@@ -1,0 +1,10 @@
+kcoreaddons (4.95.0-0ubuntu1) trusty; urgency=low
+
+  [ Michał Zając ]
+  * Initial release
+
+  [ Jonathan Riddell ]
+  * Add disable-failing-test.diff which occationally fails in the
+    PPA builder
+
+ -- Michał Zając <quintasan@kubuntu.org>  Thu, 09 Jan 2014 17:55:45 +0100

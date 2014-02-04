@@ -1,0 +1,4 @@
+usr/include/*
+usr/lib/*/cmake/*
+usr/lib/*/libKF5CoreAddons.so
+usr/share/mime/packages/kde5.xml
