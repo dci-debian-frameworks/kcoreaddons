@@ -13,22 +13,22 @@ Homepage: http://projects.kde.org/kcoreaddons
 Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons4 (= ${binary:Version})
+Depends: libkf5coreaddons5 (= ${binary:Version})
 Description: KDE Frameworks 5 addons to QtCore - development files
  This package contains development librariers for KCoreAddons module of
  KDE Frameworks 5.
 
-Package: libkf5coreaddons4
+Package: libkf5coreaddons5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE Frameworks 5 addons to QtCore
  This package contains KCoreAddons libraries - a part of KDE Frameworks 5
 
-Package: libkf5coreaddons4-dbg
+Package: libkf5coreaddons5-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libkf5coreaddons4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5coreaddons5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: KDE Frameworks 5 addons to QtCore - debugging symbols
  This package contains debugging symbols for KCoreAddons module
