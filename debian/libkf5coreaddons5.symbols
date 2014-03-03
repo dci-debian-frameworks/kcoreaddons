@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5CoreAddons.so.4 libkf5coreaddons4 #MINVER#
+libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseENS_10LicenseKeyE@Base 4.96.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.96.0
  _ZN10KAboutData10setLicenseENS_10LicenseKeyE@Base 4.96.0
@@ -398,8 +398,8 @@ libKF5CoreAddons.so.4 libkf5coreaddons4 #MINVER#
  _ZNK12KAboutPerson10webAddressEv@Base 4.96.0
  _ZNK12KAboutPerson11ocsUsernameEv@Base 4.96.0
  _ZNK12KAboutPerson12emailAddressEv@Base 4.96.0
- _ZNK12KAboutPerson4nameEv@Base 4.96.0
- _ZNK12KAboutPerson4taskEv@Base 4.96.0
+ _ZNK12KAboutPerso.5nameEv@Base 4.96.0
+ _ZNK12KAboutPerso.5taskEv@Base 4.96.0
  _ZNK13KAboutLicense3keyEv@Base 4.96.0
  _ZNK13KAboutLicense4nameEN10KAboutData10NameFormatE@Base 4.96.0
  _ZNK13KAboutLicense4textEv@Base 4.96.0
