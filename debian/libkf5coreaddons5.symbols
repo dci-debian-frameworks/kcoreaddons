@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseENS_10LicenseKeyE@Base 4.97.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -40,14 +40,16 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutDataD1Ev@Base 4.97.0
  _ZN10KAboutDataD2Ev@Base 4.97.0
  _ZN10KAboutDataaSERKS_@Base 4.97.0
- _ZN10KUserGroup13allGroupNamesEv@Base 4.97.0
- _ZN10KUserGroup9allGroupsEv@Base 4.97.0
+ _ZN10KUserGroup13allGroupNamesEj@Base 4.98.0
+ _ZN10KUserGroup9allGroupsEj@Base 4.98.0
+ _ZN10KUserGroupC1E8KGroupId@Base 4.98.0
  _ZN10KUserGroupC1EN5KUser7UIDModeE@Base 4.97.0
  _ZN10KUserGroupC1EPK5group@Base 4.97.0
  _ZN10KUserGroupC1EPKc@Base 4.97.0
  _ZN10KUserGroupC1ERK7QString@Base 4.97.0
  _ZN10KUserGroupC1ERKS_@Base 4.97.0
  _ZN10KUserGroupC1Ej@Base 4.97.0
+ _ZN10KUserGroupC2E8KGroupId@Base 4.98.0
  _ZN10KUserGroupC2EN5KUser7UIDModeE@Base 4.97.0
  _ZN10KUserGroupC2EPK5group@Base 4.97.0
  _ZN10KUserGroupC2EPKc@Base 4.97.0
@@ -272,14 +274,16 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN4KJobD0Ev@Base 4.97.0
  _ZN4KJobD1Ev@Base 4.97.0
  _ZN4KJobD2Ev@Base 4.97.0
- _ZN5KUser12allUserNamesEv@Base 4.97.0
- _ZN5KUser8allUsersEv@Base 4.97.0
+ _ZN5KUser12allUserNamesEj@Base 4.98.0
+ _ZN5KUser8allUsersEj@Base 4.98.0
+ _ZN5KUserC1E7KUserId@Base 4.98.0
  _ZN5KUserC1ENS_7UIDModeE@Base 4.97.0
  _ZN5KUserC1EPK6passwd@Base 4.97.0
  _ZN5KUserC1EPKc@Base 4.97.0
  _ZN5KUserC1ERK7QString@Base 4.97.0
  _ZN5KUserC1ERKS_@Base 4.97.0
  _ZN5KUserC1Ej@Base 4.97.0
+ _ZN5KUserC2E7KUserId@Base 4.98.0
  _ZN5KUserC2ENS_7UIDModeE@Base 4.97.0
  _ZN5KUserC2EPK6passwd@Base 4.97.0
  _ZN5KUserC2EPKc@Base 4.97.0
@@ -305,6 +309,12 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN7KFormatD2Ev@Base 4.97.0
  _ZN7KRandom12randomStringEi@Base 4.97.0
  _ZN7KRandom6randomEv@Base 4.97.0
+ _ZN7KUserId13currentUserIdEv@Base 4.98.0
+ _ZN7KUserId22currentEffectiveUserIdEv@Base 4.98.0
+ _ZN7KUserId8fromNameERK7QString@Base 4.98.0
+ _ZN8KGroupId14currentGroupIdEv@Base 4.98.0
+ _ZN8KGroupId23currentEffectiveGroupIdEv@Base 4.98.0
+ _ZN8KGroupId8fromNameERK7QString@Base 4.98.0
  _ZN8KMessage17setMessageHandlerEP15KMessageHandler@Base 4.97.0
  _ZN8KMessage7messageENS_11MessageTypeERK7QStringS3_@Base 4.97.0
  _ZN8KProcess10setProgramERK11QStringList@Base 4.97.0
@@ -388,13 +398,12 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK10KAboutData8homepageEv@Base 4.97.0
  _ZNK10KAboutData8licensesEv@Base 4.97.0
  _ZNK10KAboutData9otherTextEv@Base 4.97.0
- _ZNK10KUserGroup3gidEv@Base 4.97.0
  _ZNK10KUserGroup4nameEv@Base 4.97.0
- _ZNK10KUserGroup5usersEv@Base 4.97.0
+ _ZNK10KUserGroup5usersEj@Base 4.98.0
+ _ZNK10KUserGroup7groupIdEv@Base 4.98.0
  _ZNK10KUserGroup7isValidEv@Base 4.97.0
- _ZNK10KUserGroup9userNamesEv@Base 4.97.0
+ _ZNK10KUserGroup9userNamesEj@Base 4.98.0
  _ZNK10KUserGroupeqERKS_@Base 4.97.0
- _ZNK10KUserGroupneERKS_@Base 4.97.0
  _ZNK12KAboutPerson10webAddressEv@Base 4.97.0
  _ZNK12KAboutPerson11ocsUsernameEv@Base 4.97.0
  _ZNK12KAboutPerson12emailAddressEv@Base 4.97.0
@@ -431,19 +440,18 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK4KJob5errorEv@Base 4.97.0
  _ZNK4KJob7percentEv@Base 4.97.0
  _ZNK4KJob9errorTextEv@Base 4.97.0
- _ZNK5KUser10groupNamesEv@Base 4.97.0
+ _ZNK5KUser10groupNamesEj@Base 4.98.0
  _ZNK5KUser11isSuperUserEv@Base 4.97.0
  _ZNK5KUser12faceIconPathEv@Base 4.97.0
- _ZNK5KUser3gidEv@Base 4.97.0
- _ZNK5KUser3uidEv@Base 4.97.0
  _ZNK5KUser5shellEv@Base 4.97.0
- _ZNK5KUser6groupsEv@Base 4.97.0
+ _ZNK5KUser6groupsEj@Base 4.98.0
+ _ZNK5KUser6userIdEv@Base 4.98.0
+ _ZNK5KUser7groupIdEv@Base 4.98.0
  _ZNK5KUser7homeDirEv@Base 4.97.0
  _ZNK5KUser7isValidEv@Base 4.97.0
  _ZNK5KUser8propertyENS_12UserPropertyE@Base 4.97.0
  _ZNK5KUser9loginNameEv@Base 4.97.0
  _ZNK5KUsereqERKS_@Base 4.97.0
- _ZNK5KUserneERKS_@Base 4.97.0
  _ZNK7KFormat14formatByteSizeEdiNS_17BinaryUnitDialectENS_15BinarySizeUnitsE@Base 4.97.0
  _ZNK7KFormat14formatDurationEy6QFlagsINS_20DurationFormatOptionEE@Base 4.97.0
  _ZNK7KFormat18formatRelativeDateERK5QDateN7QLocale10FormatTypeE@Base 4.97.0
