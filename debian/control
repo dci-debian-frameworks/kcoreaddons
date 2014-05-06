@@ -5,7 +5,10 @@ XSBC-Original-Maintainer: Michał Zając <quintasan@kubuntu.org>
 Build-Depends: debhelper (>= 8.0.0), cmake,
  extra-cmake-modules (>= 0.0.13),
  qtbase5-dev,
- pkg-kde-tools
+ pkg-kde-tools,
+ qttools5-dev,
+ qttools5-dev-tools,
+ qt5-default
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://projects.kde.org/kcoreaddons
@@ -24,6 +27,15 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE Frameworks 5 addons to QtCore
  This package contains KCoreAddons libraries - a part of KDE Frameworks 5
+
+Package: libkf5coreaddons-data
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KDE Frameworks 5 addons to QtCore
+ Addons to Qt Core - a part of KDE Frameworks 5
+ .
+ This package contains the translations.
 
 Package: libkf5coreaddons5-dbg
 Section: debug
