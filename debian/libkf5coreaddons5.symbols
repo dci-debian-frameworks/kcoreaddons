@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseENS_10LicenseKeyE@Base 4.97.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -33,8 +33,12 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData22applicationDataPointerEv@Base 4.97.0
  _ZN10KAboutData9addAuthorERK7QStringS2_S2_S2_S2_@Base 4.97.0
  _ZN10KAboutData9addCreditERK7QStringS2_S2_S2_S2_@Base 4.97.0
+ _ZN10KAboutDataC1ERK7QStringS2_S2_@Base 4.99.0
+ _ZN10KAboutDataC1ERK7QStringS2_S2_S2_NS_10LicenseKeyES2_S2_S2_S2_@Base 4.99.0
  _ZN10KAboutDataC1ERK7QStringS2_S2_S2_S2_NS_10LicenseKeyES2_S2_S2_S2_@Base 4.97.0
  _ZN10KAboutDataC1ERKS_@Base 4.97.0
+ _ZN10KAboutDataC2ERK7QStringS2_S2_@Base 4.99.0
+ _ZN10KAboutDataC2ERK7QStringS2_S2_S2_NS_10LicenseKeyES2_S2_S2_S2_@Base 4.99.0
  _ZN10KAboutDataC2ERK7QStringS2_S2_S2_S2_NS_10LicenseKeyES2_S2_S2_S2_@Base 4.97.0
  _ZN10KAboutDataC2ERKS_@Base 4.97.0
  _ZN10KAboutDataD1Ev@Base 4.97.0
@@ -127,6 +131,23 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN13KCompositeJobD0Ev@Base 4.97.0
  _ZN13KCompositeJobD1Ev@Base 4.97.0
  _ZN13KCompositeJobD2Ev@Base 4.97.0
+ _ZN13KPluginLoader10findPluginERK7QString@Base 4.99.0
+ _ZN13KPluginLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.99.0
+ _ZN13KPluginLoader11qt_metacastEPKc@Base 4.99.0
+ _ZN13KPluginLoader12setLoadHintsE6QFlagsIN8QLibrary8LoadHintEE@Base 4.99.0
+ _ZN13KPluginLoader13pluginVersionEv@Base 4.99.0
+ _ZN13KPluginLoader16staticMetaObjectE@Base 4.99.0
+ _ZN13KPluginLoader4loadEv@Base 4.99.0
+ _ZN13KPluginLoader6unloadEv@Base 4.99.0
+ _ZN13KPluginLoader7factoryEv@Base 4.99.0
+ _ZN13KPluginLoader8instanceEv@Base 4.99.0
+ _ZN13KPluginLoaderC1ERK11KPluginNameP7QObject@Base 4.99.0
+ _ZN13KPluginLoaderC1ERK7QStringP7QObject@Base 4.99.0
+ _ZN13KPluginLoaderC2ERK11KPluginNameP7QObject@Base 4.99.0
+ _ZN13KPluginLoaderC2ERK7QStringP7QObject@Base 4.99.0
+ _ZN13KPluginLoaderD0Ev@Base 4.99.0
+ _ZN13KPluginLoaderD1Ev@Base 4.99.0
+ _ZN13KPluginLoaderD2Ev@Base 4.99.0
  _ZN14KJobUiDelegate10connectJobEP4KJob@Base 4.97.0
  _ZN14KJobUiDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN14KJobUiDelegate11qt_metacastEPKc@Base 4.97.0
@@ -150,6 +171,23 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN14KMacroExpander22expandMacrosShellQuoteERK7QStringRK5QHashI5QCharS0_ES4_@Base 4.97.0
  _ZN14KMacroExpander22expandMacrosShellQuoteERK7QStringRK5QHashIS0_11QStringListE5QChar@Base 4.97.0
  _ZN14KMacroExpander22expandMacrosShellQuoteERK7QStringRK5QHashIS0_S0_E5QChar@Base 4.97.0
+ _ZN14KPluginFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.99.0
+ _ZN14KPluginFactory11qt_metacastEPKc@Base 4.99.0
+ _ZN14KPluginFactory12createObjectEP7QObjectPKcRK11QStringList@Base 4.99.0
+ _ZN14KPluginFactory13objectCreatedEP7QObject@Base 4.99.0
+ _ZN14KPluginFactory14registerPluginERK7QStringPK11QMetaObjectPFP7QObjectP7QWidgetS7_RK5QListI8QVariantEE@Base 4.99.0
+ _ZN14KPluginFactory16createPartObjectEP7QWidgetP7QObjectPKcRK11QStringList@Base 4.99.0
+ _ZN14KPluginFactory16staticMetaObjectE@Base 4.99.0
+ _ZN14KPluginFactory23stringListToVariantListERK11QStringList@Base 4.99.0
+ _ZN14KPluginFactory23variantListToStringListERK5QListI8QVariantE@Base 4.99.0
+ _ZN14KPluginFactory6createEPKcP7QWidgetP7QObjectRK5QListI8QVariantERK7QString@Base 4.99.0
+ _ZN14KPluginFactoryC1ER21KPluginFactoryPrivate@Base 4.99.0
+ _ZN14KPluginFactoryC1Ev@Base 4.99.0
+ _ZN14KPluginFactoryC2ER21KPluginFactoryPrivate@Base 4.99.0
+ _ZN14KPluginFactoryC2Ev@Base 4.99.0
+ _ZN14KPluginFactoryD0Ev@Base 4.99.0
+ _ZN14KPluginFactoryD1Ev@Base 4.99.0
+ _ZN14KPluginFactoryD2Ev@Base 4.99.0
  _ZN14KStringHandler14preProcessWrapERK7QString@Base 4.97.0
  _ZN14KStringHandler6isUtf8EPKc@Base 4.97.0
  _ZN14KStringHandler7obscureERK7QString@Base 4.97.0
@@ -187,6 +225,10 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN16KSharedDataCacheC2ERK7QStringjj@Base 4.97.0
  _ZN16KSharedDataCacheD1Ev@Base 4.97.0
  _ZN16KSharedDataCacheD2Ev@Base 4.97.0
+ _ZN17Kdelibs4MigrationC1Ev@Base 4.99.0
+ _ZN17Kdelibs4MigrationC2Ev@Base 4.99.0
+ _ZN17Kdelibs4MigrationD1Ev@Base 4.99.0
+ _ZN17Kdelibs4MigrationD2Ev@Base 4.99.0
  _ZN18KCharMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4.97.0
  _ZN18KCharMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4.97.0
  _ZN18KCharMacroExpanderD0Ev@Base 4.97.0
@@ -417,16 +459,27 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK13KCompositeJob10hasSubjobsEv@Base 4.97.0
  _ZNK13KCompositeJob10metaObjectEv@Base 4.97.0
  _ZNK13KCompositeJob7subjobsEv@Base 4.97.0
+ _ZNK13KPluginLoader10metaObjectEv@Base 4.99.0
+ _ZNK13KPluginLoader10pluginNameEv@Base 4.99.0
+ _ZNK13KPluginLoader11errorStringEv@Base 4.99.0
+ _ZNK13KPluginLoader8fileNameEv@Base 4.99.0
+ _ZNK13KPluginLoader8isLoadedEv@Base 4.99.0
+ _ZNK13KPluginLoader8metaDataEv@Base 4.99.0
+ _ZNK13KPluginLoader9loadHintsEv@Base 4.99.0
  _ZNK14KJobUiDelegate10metaObjectEv@Base 4.97.0
  _ZNK14KJobUiDelegate26isAutoErrorHandlingEnabledEv@Base 4.97.0
  _ZNK14KJobUiDelegate28isAutoWarningHandlingEnabledEv@Base 4.97.0
  _ZNK14KJobUiDelegate3jobEv@Base 4.97.0
+ _ZNK14KPluginFactory10metaObjectEv@Base 4.99.0
  _ZNK16KSharedDataCache14evictionPolicyEv@Base 4.97.0
  _ZNK16KSharedDataCache4findERK7QStringP10QByteArray@Base 4.97.0
  _ZNK16KSharedDataCache8containsERK7QString@Base 4.97.0
  _ZNK16KSharedDataCache8freeSizeEv@Base 4.97.0
  _ZNK16KSharedDataCache9timestampEv@Base 4.97.0
  _ZNK16KSharedDataCache9totalSizeEv@Base 4.97.0
+ _ZNK17Kdelibs4Migration11locateLocalEPKcRK7QString@Base 4.99.0
+ _ZNK17Kdelibs4Migration12kdeHomeFoundEv@Base 4.99.0
+ _ZNK17Kdelibs4Migration12saveLocationEPKcRK7QString@Base 4.99.0
  _ZNK18KMacroExpanderBase10escapeCharEv@Base 4.97.0
  _ZNK20KJobTrackerInterface10metaObjectEv@Base 4.97.0
  _ZNK4KJob10metaObjectEv@Base 4.97.0
@@ -470,7 +523,9 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZTI11QSharedData@Base 4.97.0
  _ZTI13KAutoSaveFile@Base 4.97.0
  _ZTI13KCompositeJob@Base 4.97.0
+ _ZTI13KPluginLoader@Base 4.99.0
  _ZTI14KJobUiDelegate@Base 4.97.0
+ _ZTI14KPluginFactory@Base 4.99.0
  _ZTI15KRandomSequence@Base 4.97.0
  _ZTI18KCharMacroExpander@Base 4.97.0
  _ZTI18KMacroExpanderBase@Base 4.97.0
@@ -484,7 +539,9 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZTS11QSharedData@Base 4.97.0
  _ZTS13KAutoSaveFile@Base 4.97.0
  _ZTS13KCompositeJob@Base 4.97.0
+ _ZTS13KPluginLoader@Base 4.99.0
  _ZTS14KJobUiDelegate@Base 4.97.0
+ _ZTS14KPluginFactory@Base 4.99.0
  _ZTS15KRandomSequence@Base 4.97.0
  _ZTS18KCharMacroExpander@Base 4.97.0
  _ZTS18KMacroExpanderBase@Base 4.97.0
@@ -497,7 +554,9 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZTV11KJobPrivate@Base 4.97.0
  _ZTV13KAutoSaveFile@Base 4.97.0
  _ZTV13KCompositeJob@Base 4.97.0
+ _ZTV13KPluginLoader@Base 4.99.0
  _ZTV14KJobUiDelegate@Base 4.97.0
+ _ZTV14KPluginFactory@Base 4.99.0
  _ZTV15KRandomSequence@Base 4.97.0
  _ZTV18KCharMacroExpander@Base 4.97.0
  _ZTV18KMacroExpanderBase@Base 4.97.0
