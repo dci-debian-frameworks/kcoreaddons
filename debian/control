@@ -17,7 +17,8 @@ Homepage: http://projects.kde.org/kcoreaddons
 Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons5 (= ${binary:Version})
+Depends: libkf5coreaddons5 (= ${binary:Version}),
+ qtbase5-dev
 Description: KDE Frameworks 5 addons to QtCore - development files
  This package contains development librariers for KCoreAddons module of
  KDE Frameworks 5.
