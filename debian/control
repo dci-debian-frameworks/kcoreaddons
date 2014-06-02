@@ -4,7 +4,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Michał Zając <quintasan@kubuntu.org>
 Build-Depends: cmake,
                debhelper (>= 8.0.0),
-               extra-cmake-modules (>= 0.0.13),
+               extra-cmake-modules (>= 0.0.14),
                pkg-kde-tools,
                qt5-default,
                qtbase5-dev,
@@ -17,8 +17,7 @@ Homepage: http://projects.kde.org/kcoreaddons
 Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons5 (= ${binary:Version}),
- qtbase5-dev
+Depends: libkf5coreaddons5 (= ${binary:Version}), qtbase5-dev
 Description: KDE Frameworks 5 addons to QtCore - development files
  This package contains development librariers for KCoreAddons module of
  KDE Frameworks 5.
