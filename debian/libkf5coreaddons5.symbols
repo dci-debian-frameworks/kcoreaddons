@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -61,7 +61,6 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KUserGroupD2Ev@Base 4.97.0
  _ZN10KUserGroupaSERKS_@Base 4.97.0
  _ZN11KJobPrivate15_k_speedTimeoutEv@Base 4.97.0
- _ZN11KJobPrivate25_k_kjobUnitEnumRegisteredE@Base 4.97.0
  _ZN11KJobPrivateC1Ev@Base 4.97.0
  _ZN11KJobPrivateC2Ev@Base 4.97.0
  _ZN11KJobPrivateD0Ev@Base 4.97.0
