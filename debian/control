@@ -29,9 +29,18 @@ Section: libs
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5coreaddons-data
 Description: KDE Frameworks 5 addons to QtCore
  This package contains KCoreAddons libraries - a part of KDE Frameworks 5
+
+Package: libkf5coreaddons-data
+Section: libs
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE Frameworks 5 addons to QtCore
+ Addons to Qt Core - a part of KDE Frameworks 5
+ .
+ This package contains the translations.
 
 Package: libkf5coreaddons5-dbg
 Section: debug
