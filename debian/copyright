@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kcoreaddons
-Source: http://kde.org/
+Source: git://anongit.kde.org/kcoreaddons
 
 Files: *
 Copyright:  1998 Sven Radej <sven@lisa.exp.univie.ac.at>
