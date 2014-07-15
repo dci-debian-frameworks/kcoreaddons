@@ -227,9 +227,9 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN17Kdelibs4MigrationD2Ev@Base 4.99.0
  _ZN18KCharMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4.97.0
  _ZN18KCharMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4.97.0
- _ZN18KCharMacroExpanderD0Ev@Base 4.97.0
- _ZN18KCharMacroExpanderD1Ev@Base 4.97.0
- _ZN18KCharMacroExpanderD2Ev@Base 4.97.0
+ (optional=gccinternal)_ZN18KCharMacroExpanderD0Ev@Base 4.97.0
+ (optional=gccinternal)_ZN18KCharMacroExpanderD1Ev@Base 4.97.0
+ (optional=gccinternal)_ZN18KCharMacroExpanderD2Ev@Base 4.97.0
  _ZN18KMacroExpanderBase12expandMacrosER7QString@Base 4.97.0
  _ZN18KMacroExpanderBase13setEscapeCharE5QChar@Base 4.97.0
  _ZN18KMacroExpanderBase16expandPlainMacroERK7QStringiR11QStringList@Base 4.97.0
@@ -243,9 +243,9 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN18KMacroExpanderBaseD2Ev@Base 4.97.0
  _ZN18KWordMacroExpander16expandPlainMacroERK7QStringiR11QStringList@Base 4.97.0
  _ZN18KWordMacroExpander18expandEscapedMacroERK7QStringiR11QStringList@Base 4.97.0
- _ZN18KWordMacroExpanderD0Ev@Base 4.97.0
- _ZN18KWordMacroExpanderD1Ev@Base 4.97.0
- _ZN18KWordMacroExpanderD2Ev@Base 4.97.0
+ (optional=gccinternal)_ZN18KWordMacroExpanderD0Ev@Base 4.97.0
+ (optional=gccinternal)_ZN18KWordMacroExpanderD1Ev@Base 4.97.0
+ (optional=gccinternal)_ZN18KWordMacroExpanderD2Ev@Base 4.97.0
  _ZN20KCompositeJobPrivateC1Ev@Base 4.97.0
  _ZN20KCompositeJobPrivateC2Ev@Base 4.97.0
  _ZN20KCompositeJobPrivateD0Ev@Base 4.97.0
