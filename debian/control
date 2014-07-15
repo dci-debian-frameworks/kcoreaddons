@@ -22,8 +22,14 @@ Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons5 (= ${binary:Version}), qtbase5-dev
 Description: KDE Frameworks 5 addons to QtCore - development files
- This package contains development librariers for KCoreAddons module of
- KDE Frameworks 5.
+ KCoreAddons provides classes built on top of QtCore to perform various tasks
+ such as manipulating mime types, autosaving files, creating backup files,
+ generating random sequences, performing text manipulations such as macro
+ replacement, accessing user information and many more.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the development files for KCoreAddons.
 
 Package: libkf5coreaddons5
 Section: libs
@@ -31,17 +37,27 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE Frameworks 5 addons to QtCore
- This package contains KCoreAddons libraries - a part of KDE Frameworks 5
+ KCoreAddons provides classes built on top of QtCore to perform various tasks
+ such as manipulating mime types, autosaving files, creating backup files,
+ generating random sequences, performing text manipulations such as macro
+ replacement, accessing user information and many more.
+ .
+ This package is part of KDE Frameworks 5.
 
 Package: libkf5coreaddons-data
 Section: libs
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KDE Frameworks 5 addons to QtCore
- Addons to Qt Core - a part of KDE Frameworks 5
+Description: KDE Frameworks 5 addons to QtCore - data files
+ KCoreAddons provides classes built on top of QtCore to perform various tasks
+ such as manipulating mime types, autosaving files, creating backup files,
+ generating random sequences, performing text manipulations such as macro
+ replacement, accessing user information and many more.
  .
- This package contains the translations.
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the arch independant files for KCoreAddons.
 
 Package: libkf5coreaddons5-dbg
 Section: debug
@@ -52,4 +68,11 @@ Depends: libkf5coreaddons5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE Frameworks 5 addons to QtCore - debugging symbols
- This package contains debugging symbols for KCoreAddons module
+ KCoreAddons provides classes built on top of QtCore to perform various tasks
+ such as manipulating mime types, autosaving files, creating backup files,
+ generating random sequences, performing text manipulations such as macro
+ replacement, accessing user information and many more.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the debugging symbols for KCoreAddons.
