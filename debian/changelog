@@ -1,3 +1,24 @@
+kcoreaddons (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Use pkg-kde-tools version 3 scripts
+  * dev package Depends on libkf5service-dev used by KF5CoreAddonsTargets.cmake
+  * desktoptojson moved from libkf5service-dev to here
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:45:22 +0200
+
+kcoreaddons (5.1.0-0ubuntu1) utopic; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Patch symbols with batchpatch 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:14:50 +0200
+
 kcoreaddons (5.0.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
