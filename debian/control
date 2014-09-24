@@ -14,8 +14,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://projects.kde.org/kcoreaddons
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/karchive.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/karchive.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kcoreaddons.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kcoreaddons.git
 
 Package: libkf5coreaddons-dev
 Section: libdevel
