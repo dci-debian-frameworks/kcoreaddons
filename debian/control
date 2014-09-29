@@ -19,7 +19,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kcoreaddons.git
 Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons5 (= ${binary:Version}), qtbase5-dev
+Depends: ${shlibs:Depends}, libkf5coreaddons5 (= ${binary:Version}), qtbase5-dev
 Replaces: libkf5service-dev (<= 5.2.0)
 Breaks: libkf5service-dev (<= 5.2.0)
 Description: KDE Frameworks 5 addons to QtCore - development files
