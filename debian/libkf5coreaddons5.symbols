@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 i386
+# SymbolsHelper-Confirmed: 5.2.0+git20140930 i386
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -361,6 +361,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN7KBackup13rcsBackupFileERK7QStringS2_S2_@Base 4.97.0
  _ZN7KBackup16simpleBackupFileERK7QStringS2_S2_@Base 4.97.0
  _ZN7KBackup18numberedBackupFileERK7QStringS2_S2_j@Base 4.97.0
+ _ZN7KFormat16staticMetaObjectE@Base 5.2.0+git20140930
  _ZN7KFormatC1ERK7QLocale@Base 4.97.0
  _ZN7KFormatC1ERKS_@Base 4.97.0
  _ZN7KFormatC2ERK7QLocale@Base 4.97.0
