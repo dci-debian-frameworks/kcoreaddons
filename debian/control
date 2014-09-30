@@ -58,7 +58,7 @@ Description: KDE Frameworks 5 addons to QtCore - data files
  .
  This package is part of KDE Frameworks 5.
  .
- This package contains the arch independant files for KCoreAddons.
+ This package contains the arch independent files for KCoreAddons.
 
 Package: libkf5coreaddons5-dbg
 Section: debug
