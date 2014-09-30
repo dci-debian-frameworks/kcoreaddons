@@ -1,6 +1,7 @@
 kcoreaddons (5.2.0-0ubuntu2) UNRELEASED; urgency=medium
 
-  * Fix a type in -data description.
+  * Fix a typo in -data description.
+  * Do not build depend on qt5-default, we use qtbase5-dev instead.
 
  -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 30 Sep 2014 09:25:18 +0200
 
