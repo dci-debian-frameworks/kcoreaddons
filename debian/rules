@@ -5,7 +5,4 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5coreaddons5-dbg
 
-override_dh_auto_test:
-	[ -e $(CURDIR)/debian/tests.home ] || mkdir $(CURDIR)/debian/tests.home
-	HOME=$(CURDIR)/debian/tests.home $(overridden_command)
-	rm -rf $(CURDIR)/debian/home/tests.home
+.PHONY: override_dh_auto_test
