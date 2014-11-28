@@ -1,6 +1,7 @@
 kcoreaddons (5.4.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Remove unused FAM build-dep, we use inotify
+  * Remove unused patch disable-failing-test.diff
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Nov 2014 13:10:03 +0100
 
