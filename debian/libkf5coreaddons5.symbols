@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141202.0008+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0+git20141204.0007+15.04 amd64 i386
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -66,6 +66,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN11KJobPrivateD0Ev@Base 4.97.0
  _ZN11KJobPrivateD1Ev@Base 4.97.0
  _ZN11KJobPrivateD2Ev@Base 4.97.0
+ _ZN11KTextToHTML13convertToHtmlERK7QStringRK6QFlagsINS_6OptionEEii@Base 5.4.0+git20141204.0007+15.04
  _ZN12KAboutPersonC1ERK7QStringS2_S2_S2_S2_@Base 4.97.0
  _ZN12KAboutPersonC1ERK7QStringS2_b@Base 4.97.0
  _ZN12KAboutPersonC1ERKS_@Base 4.97.0
