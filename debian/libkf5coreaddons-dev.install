@@ -1,6 +1,6 @@
+usr/bin/desktoptojson
 usr/include/*
 usr/lib/*/cmake/*
 usr/lib/*/libKF5CoreAddons.so
 usr/lib/*/qt5/mkspecs/modules/*
 usr/share/mime/packages/kde5.xml
-usr/bin/desktoptojson
