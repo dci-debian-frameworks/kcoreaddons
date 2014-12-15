@@ -9,7 +9,7 @@ kcoreaddons (5.5.0-0ubuntu1) vivid; urgency=medium
   * wrap-and-sort 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:25:46 +0100
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 12:16:26 +0100
 
 kcoreaddons (5.4.0-0ubuntu1) vivid; urgency=medium
 
