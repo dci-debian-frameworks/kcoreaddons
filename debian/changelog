@@ -1,8 +1,30 @@
-kcoreaddons (5.0.0-1~) UNRELEASED; urgency=medium
+kcoreaddons (5.2.0-0ubuntu2) UNRELEASED; urgency=medium
 
-  * 
+  * Fix a typo in -data description.
+  * Do not build depend on qt5-default, we use qtbase5-dev instead.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Jul 2014 19:15:19 +0200
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 30 Sep 2014 09:25:18 +0200
+
+kcoreaddons (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Use pkg-kde-tools version 3 scripts
+  * dev package Depends on libkf5service-dev used by KF5CoreAddonsTargets.cmake
+  * desktoptojson moved from libkf5service-dev to here
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:45:22 +0200
+
+kcoreaddons (5.1.0-0ubuntu1) utopic; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Patch symbols with batchpatch 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:14:50 +0200
 
 kcoreaddons (5.0.0-0ubuntu1) utopic; urgency=medium
 
