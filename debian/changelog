@@ -10,6 +10,7 @@ kcoreaddons (5.6.0-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed
   * Update build dependencies to follow cmake.
   * Fix dependencies.
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Jan 2015 20:43:06 +0100
 
