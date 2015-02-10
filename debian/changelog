@@ -1,8 +1,8 @@
-kcoreaddons (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
+kcoreaddons (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 09:48:17 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:54:12 +0100
 
 kcoreaddons (5.6.0-0ubuntu1) vivid; urgency=medium
 
