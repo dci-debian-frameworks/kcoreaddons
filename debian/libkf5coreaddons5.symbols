@@ -222,15 +222,19 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN15KPluginMetaDataD1Ev@Base 5.2.0
  _ZN15KPluginMetaDataD2Ev@Base 5.2.0
  _ZN15KPluginMetaDataaSERKS_@Base 5.2.0
+ _ZN15KRandomSequence6getIntEj@Base 5.6.0+git20150124.0026+15.04
  _ZN15KRandomSequence7Private4drawEv@Base 4.97.0
  _ZN15KRandomSequence7getBoolEv@Base 4.97.0
  _ZN15KRandomSequence7getLongEm@Base 4.97.0
+ _ZN15KRandomSequence7setSeedEi@Base 5.6.0+git20150124.0026+15.04
  _ZN15KRandomSequence7setSeedEl@Base 4.97.0
  _ZN15KRandomSequence8modulateEi@Base 4.97.0
  _ZN15KRandomSequence9getDoubleEv@Base 4.97.0
  _ZN15KRandomSequenceC1ERKS_@Base 4.97.0
+ _ZN15KRandomSequenceC1Ei@Base 5.6.0+git20150124.0026+15.04
  _ZN15KRandomSequenceC1El@Base 4.97.0
  _ZN15KRandomSequenceC2ERKS_@Base 4.97.0
+ _ZN15KRandomSequenceC2Ei@Base 5.6.0+git20150124.0026+15.04
  _ZN15KRandomSequenceC2El@Base 4.97.0
  _ZN15KRandomSequenceD0Ev@Base 4.97.0
  _ZN15KRandomSequenceD1Ev@Base 4.97.0
