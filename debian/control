@@ -5,10 +5,12 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0),
+               libfam-dev,
                pkg-kde-tools (>= 0.15.16~),
                qtbase5-dev (>= 5.2.0),
                qttools5-dev,
-               qttools5-dev-tools
+               qttools5-dev-tools,
+               shared-mime-info (>= 0.70)
 Standards-Version: 3.9.6
 Section: libs
 XS-Testsuite: autopkgtest
@@ -39,6 +41,7 @@ Section: libs
 Architecture: any
 Multi-Arch: same
 Depends: libkf5coreaddons-data (= ${source:Version}),
+         shared-mime-info (>= 0.70),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE Frameworks 5 addons to QtCore
