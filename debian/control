@@ -22,7 +22,7 @@ Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons5 (= ${binary:Version}),
-         qtbase5-dev,
+         qtbase5-dev (>= 5.2.0),
          ${shlibs:Depends}
 Replaces: libkf5service-dev (<= 5.2.0)
 Breaks: libkf5service-dev (<= 5.2.0)
