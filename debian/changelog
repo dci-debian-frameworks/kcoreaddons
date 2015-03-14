@@ -3,6 +3,7 @@ kcoreaddons (5.8.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.8.0).
   * Remove upstream patch:
     upstream_add_licensing_information_for_files_missing_it
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:24:30 +0100
 
