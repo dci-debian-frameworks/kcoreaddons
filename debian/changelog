@@ -1,9 +1,10 @@
-kcoreaddons (5.8.0-2) UNRELEASED; urgency=medium
+kcoreaddons (5.9.0-1~) UNRELEASED; urgency=medium
 
   * Remove colliding webp mime info.
   * New patch: colliding_webp_mime_info
+  * New upstream release (5.9.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Mar 2015 13:11:42 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Apr 2015 10:22:58 +0200
 
 kcoreaddons (5.8.0-1) experimental; urgency=medium
 
