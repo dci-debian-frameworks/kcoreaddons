@@ -1,6 +1,7 @@
 kcoreaddons (5.10.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * Remove upstream applied patch: colliding_webp_mime_info
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:19:25 +0200
 
