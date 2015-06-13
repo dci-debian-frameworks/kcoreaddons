@@ -23,7 +23,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: libkf5coreaddons5 (= ${binary:Version}),
-         libkf5coreaddons-bin-dev (= ${binary:Version})
+         libkf5coreaddons-bin-dev (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${shlibs:Depends}
 Replaces: libkf5service-dev (<= 5.2.0)
