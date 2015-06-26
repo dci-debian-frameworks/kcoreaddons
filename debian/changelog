@@ -1,4 +1,4 @@
-kcoreaddons (5.11.0-1~) UNRELEASED; urgency=medium
+kcoreaddons (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.10.0).
   * Remove upstream applied patch: colliding_webp_mime_info
@@ -7,7 +7,7 @@ kcoreaddons (5.11.0-1~) UNRELEASED; urgency=medium
   * Update symbols files.
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jun 2015 15:34:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 13:14:02 +0200
 
 kcoreaddons (5.10.0-0ubuntu1) wily; urgency=medium
 
