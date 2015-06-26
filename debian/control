@@ -21,7 +21,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kcoreaddons.git
 Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5coreaddons5 (= ${binary:Version}),
          libkf5coreaddons-bin-dev (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
