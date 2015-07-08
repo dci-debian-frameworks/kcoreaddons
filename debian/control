@@ -22,8 +22,8 @@ Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5coreaddons5 (= ${binary:Version}),
-         libkf5coreaddons-bin-dev (= ${binary:Version}),
+Depends: libkf5coreaddons-bin-dev (= ${binary:Version}),
+         libkf5coreaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${shlibs:Depends}
 Replaces: libkf5service-dev (<= 5.2.0)
@@ -42,7 +42,7 @@ Package: libkf5coreaddons-bin-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: libkf5coreaddons-dev (<< 5.10+git20150714)
 Breaks: libkf5coreaddons-dev (<< 5.10+git20150714)
 Description: KDE Frameworks 5 addons to QtCore - development files
@@ -54,7 +54,6 @@ Description: KDE Frameworks 5 addons to QtCore - development files
  This package is part of KDE Frameworks 5.
  .
  This package contains the binary development files for KCoreAddons.
-
 
 Package: libkf5coreaddons5
 Architecture: any
