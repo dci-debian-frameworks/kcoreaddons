@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.15.0+git20151007.0029+15.10 amd64 i386
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -516,6 +516,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK15KPluginMetaData8iconNameEv@Base 5.2.0
  _ZNK15KPluginMetaData8isHiddenEv@Base 5.7.0+git20150221.0039+15.04
  _ZNK15KPluginMetaData8pluginIdEv@Base 5.2.0
+ _ZNK15KPluginMetaData9mimeTypesEv@Base 5.15.0+git20151007.0029+15.10
  _ZNK15KPluginMetaDataeqERKS_@Base 5.2.0
  _ZNK16KSharedDataCache14evictionPolicyEv@Base 4.97.0
  _ZNK16KSharedDataCache4findERK7QStringP10QByteArray@Base 4.97.0
