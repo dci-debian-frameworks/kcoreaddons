@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151013.0059+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.0+git20151031.0048+15.10 amd64 i386
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -21,6 +21,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData18processCommandLineEP18QCommandLineParser@Base 4.97.0
  _ZN10KAboutData18registerPluginDataERKS_@Base 4.97.0
  _ZN10KAboutData18setApplicationDataERKS_@Base 4.97.0
+ _ZN10KAboutData18setDesktopFileNameERK7QString@Base 5.15.0+git20151031.0048+15.10
  _ZN10KAboutData18setLicenseTextFileERK7QString@Base 4.97.0
  _ZN10KAboutData18setProgramIconNameERK7QString@Base 4.97.0
  _ZN10KAboutData19setCustomAuthorTextERK7QStringS2_@Base 4.97.0
@@ -450,6 +451,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK10KAboutData11translatorsEv@Base 4.97.0
  _ZNK10KAboutData13componentNameEv@Base 4.97.0
  _ZNK10KAboutData14ocsProviderUrlEv@Base 4.97.0
+ _ZNK10KAboutData15desktopFileNameEv@Base 5.15.0+git20151031.0048+15.10
  _ZNK10KAboutData15internalVersionEv@Base 4.97.0
  _ZNK10KAboutData15programIconNameEv@Base 4.97.0
  _ZNK10KAboutData16shortDescriptionEv@Base 4.97.0
