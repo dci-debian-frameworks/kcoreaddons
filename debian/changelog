@@ -1,8 +1,9 @@
-kcoreaddons (5.17.0-1~) UNRELEASED; urgency=medium
+kcoreaddons (5.18.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:17:13 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 20:56:52 +0100
 
 kcoreaddons (5.16.0-1) unstable; urgency=medium
 
