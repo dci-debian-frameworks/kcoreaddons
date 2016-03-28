@@ -1,6 +1,6 @@
-kcoreaddons (5.20.0-1~3.gbp13782d) UNRELEASED; urgency=medium
+kcoreaddons (5.20.0-1~4.gbp383b26) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @13782d158a5770d64b660e2b4d27e9bac8eedc18 **
+  ** SNAPSHOT build @383b2678b0c6efa76e1664978e09d3fc6f30336c **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -8,8 +8,9 @@ kcoreaddons (5.20.0-1~3.gbp13782d) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 19:09:49 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 01:11:31 +0200
 
 kcoreaddons (5.19.0-1) experimental; urgency=medium
 
