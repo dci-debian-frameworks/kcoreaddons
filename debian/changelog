@@ -1,6 +1,6 @@
-kcoreaddons (5.20.0-1~5.gbp0fbff8) UNRELEASED; urgency=medium
+kcoreaddons (5.20.0-1~6.gbp20dc15) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0fbff8bd68b7d88a130fb426f151463315b4275d **
+  ** SNAPSHOT build @20dc1575ede8a34d3a04354ce50767a6f9b1e8a6 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -10,8 +10,9 @@ kcoreaddons (5.20.0-1~5.gbp0fbff8) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 07:11:04 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:30:56 +0200
 
 kcoreaddons (5.19.0-1) experimental; urgency=medium
 
