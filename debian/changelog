@@ -1,6 +1,6 @@
-kcoreaddons (5.20.0-1~10.gbpc977a0) UNRELEASED; urgency=medium
+kcoreaddons (5.20.0-1~11.gbpeb9442) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c977a0c1e43d8c8be25654da5358f0214c78f8b2 **
+  ** SNAPSHOT build @eb9442addff7260273b722616bb817a85f8ff237 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -15,8 +15,10 @@ kcoreaddons (5.20.0-1~10.gbpc977a0) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * Update acc.in file
+  * Ignore acc test till #820070 gets fixed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 16:59:29 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 05 Apr 2016 11:59:15 +0200
 
 kcoreaddons (5.19.0-1) experimental; urgency=medium
 
