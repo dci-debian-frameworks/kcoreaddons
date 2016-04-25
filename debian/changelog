@@ -1,3 +1,9 @@
+kcoreaddons (5.20.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release, xenial backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 15:43:54 -0700
+
 kcoreaddons (5.19.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
