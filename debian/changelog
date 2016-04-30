@@ -1,6 +1,6 @@
-kcoreaddons (5.21.0-1~1.gbp205fad) UNRELEASED; urgency=medium
+kcoreaddons (5.21.0-1~2.gbp51001a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @205fad0b8e6703aae3429a3147307e78cc11c304 **
+  ** SNAPSHOT build @51001ad0ab022f3767b2ec98abfa0985d101c193 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @eb9442addff7260273b722616bb817a85f8ff237 **
@@ -23,6 +23,7 @@ kcoreaddons (5.21.0-1~1.gbp205fad) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files.
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
@@ -32,7 +33,7 @@ kcoreaddons (5.21.0-1~1.gbp205fad) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:59:18 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:04:52 +0200
 
 kcoreaddons (5.19.0-1) experimental; urgency=medium
 
