@@ -8,4 +8,13 @@ for in_file in debian/*.acc.in; do
         "${in_file}" > "${out_file}"
 done
 
-dh_acc
+DH_VERBOSE=1
+
+# Disable acc test till abi-compliance-checker gets fixed
+# #820070
+dh_acc || true
+ret=$?
+if [ 0 -ne $ret ]; then
+    cp -r logs "${ADT_ARTIFACTS}"/acc.logs
+fi
+exit $ret
