@@ -1,6 +1,6 @@
-kcoreaddons (5.21.0-1~2.gbp51001a) UNRELEASED; urgency=medium
+kcoreaddons (5.21.0-1~3.gbpfbc1e8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @51001ad0ab022f3767b2ec98abfa0985d101c193 **
+  ** SNAPSHOT build @fbc1e8de2cbb9fe91c73c5b375ecffe7f75bd0cc **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,13 +10,17 @@ kcoreaddons (5.21.0-1~2.gbp51001a) UNRELEASED; urgency=medium
   * Update acc.in file
   * Ignore acc test till #820070 gets fixed
   * uscan no longer supports more than one main upstream tarball being listed
+  * Add new patch: missing_include.diff
+  * Drop forced includes in the acc file
+  * Re enable acc test
+  * Update testsuite script
 
   [ Automatic packaging ]
   * Update symbols files.
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:04:52 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 06 May 2016 16:09:04 +0200
 
 kcoreaddons (5.19.0-1) experimental; urgency=medium
 
