@@ -16,8 +16,6 @@
 <gcc_options>
     -fPIC
     -std=c++11
-    -I/usr/include/@@DEB_HOST_MULTIARCH@@/qt5
-    -include /usr/include/@@DEB_HOST_MULTIARCH@@/qt5/QtCore/QString
 </gcc_options>
 
 </descriptor>
