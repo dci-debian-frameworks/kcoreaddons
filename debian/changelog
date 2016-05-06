@@ -1,6 +1,4 @@
-kcoreaddons (5.21.0-1~3.gbpfbc1e8) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @fbc1e8de2cbb9fe91c73c5b375ecffe7f75bd0cc **
+kcoreaddons (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -20,7 +18,7 @@ kcoreaddons (5.21.0-1~3.gbpfbc1e8) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 06 May 2016 16:09:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 May 2016 20:06:41 +0200
 
 kcoreaddons (5.19.0-1) experimental; urgency=medium
 
