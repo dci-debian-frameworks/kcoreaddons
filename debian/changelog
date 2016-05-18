@@ -1,11 +1,10 @@
-kcoreaddons (5.22.0-1~1.gbpe6e47e) UNRELEASED; urgency=medium
+kcoreaddons (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e6e47e2db6f4c33cdac6ef10c6395a29cad2d812 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 12:59:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 00:20:48 +0200
 
 kcoreaddons (5.21.0-1) experimental; urgency=medium
 
