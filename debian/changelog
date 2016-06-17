@@ -1,10 +1,11 @@
-kcoreaddons (5.23.0-1~1.gbp23455e) UNRELEASED; urgency=medium
+kcoreaddons (5.23.0-1~2.gbp173ae7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @23455e0d47d7542a7c19f233ad3ba0edf1ab9d83 **
+  ** SNAPSHOT build @173ae72ef65a8ddf008eaeefd1392b4243af3844 **
 
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 21:10:50 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 17 Jun 2016 17:22:35 +0200
 
 kcoreaddons (5.22.0-1) unstable; urgency=medium
 
