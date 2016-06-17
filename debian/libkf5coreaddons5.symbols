@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
@@ -385,6 +385,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN7KFormatC2ERKS_@Base 4.97.0
  _ZN7KFormatD1Ev@Base 4.97.0
  _ZN7KFormatD2Ev@Base 4.97.0
+ _ZN7KFormataSERKS_@Base 5.23.0
  _ZN7KRandom12randomStringEi@Base 4.97.0
  _ZN7KRandom6randomEv@Base 4.97.0
  _ZN7KUserId13currentUserIdEv@Base 4.98.0
