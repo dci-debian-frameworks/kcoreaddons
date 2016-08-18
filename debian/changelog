@@ -1,17 +1,13 @@
-kcoreaddons (5.25.0-1~2.gbp1683e6) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @1683e6d6693ee648064bb0b86f102d54a59af7dc **
+kcoreaddons (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @78de985a472fbcf0b849d8dc1f3d64882b79c86c **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update install files
+  * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 16 Aug 2016 15:11:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:19:25 +0200
 
 kcoreaddons (5.23.0-1) unstable; urgency=medium
 
