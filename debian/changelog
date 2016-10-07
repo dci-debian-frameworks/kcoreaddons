@@ -1,5 +1,12 @@
 kcoreaddons (5.26.0-2) UNRELEASED; urgency=medium
 
+  [ Sandro Knauß ]
+  * Added patches to fix CVE-2016-7966
+    0001-Fix-very-old-bug-when-we-remove-space-in-url-as-foo-.patch
+    0002-Don-t-convert-as-url-an-url-which-has-a.patch
+    - Fixes CVE-2016-7966
+      https://security-tracker.debian.org/tracker/CVE-2016-7966
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Oct 2016 22:46:43 +0200
 
 kcoreaddons (5.26.0-1) unstable; urgency=medium
