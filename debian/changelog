@@ -1,7 +1,7 @@
 kcoreaddons (5.26.0-2) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
-  * Added patches to fix CVE-2016-7966
+  * Added patches to fix CVE-2016-7966 (Closes: #840547)
     0001-Fix-very-old-bug-when-we-remove-space-in-url-as-foo-.patch
     0002-Don-t-convert-as-url-an-url-which-has-a.patch
     - Fixes CVE-2016-7966
