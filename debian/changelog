@@ -1,6 +1,6 @@
-kcoreaddons (5.27.0-1~1.gbp2883d4) UNRELEASED; urgency=medium
+kcoreaddons (5.27.0-1~2.gbpdf0f90) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2883d4451343a85c22cf5a75feef73716c8a37e7 **
+  ** SNAPSHOT build @df0f9006020c616e1acbf4b32dc199d450cac108 **
 
   [ Sandro Knauß ]
   * Added patches to fix CVE-2016-7966 (Closes: #840547)
@@ -13,7 +13,10 @@ kcoreaddons (5.27.0-1~1.gbp2883d4) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 12:59:43 +0200
+  [ Scott Kitterman ]
+  * Add bug number to changelog
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 12 Oct 2016 19:59:27 +0200
 
 kcoreaddons (5.26.0-1) unstable; urgency=medium
 
