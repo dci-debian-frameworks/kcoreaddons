@@ -1,4 +1,4 @@
-kcoreaddons (5.26.0-2) UNRELEASED; urgency=medium
+kcoreaddons (5.26.0-2) unstable; urgency=high
 
   [ Sandro Knauß ]
   * Added patches to fix CVE-2016-7966 (Closes: #840547)
