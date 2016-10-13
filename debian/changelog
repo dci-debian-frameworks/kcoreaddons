@@ -1,3 +1,8 @@
+kcoreaddons (5.26.0-3~) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 12 Oct 2016 23:22:53 +0200
+
 kcoreaddons (5.26.0-2) unstable; urgency=high
 
   [ Sandro Knauß ]
