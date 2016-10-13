@@ -1,5 +1,9 @@
 kcoreaddons (5.26.0-3~) UNRELEASED; urgency=medium
 
+  [ Sandro Knauß ]
+  * Additional patches to complete the fix for CVE-2016-7966
+    0003-Add-more-autotests.patch
+    0004-Display-bad-url.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 12 Oct 2016 23:22:53 +0200
 
