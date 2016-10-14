@@ -1,3 +1,13 @@
+kcoreaddons (5.27.0-1~2.gbpdf0f90) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @df0f9006020c616e1acbf4b32dc199d450cac108 **
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Oct 2016 10:26:44 +0200
+
 kcoreaddons (5.26.0-3) unstable; urgency=high
 
   [ Sandro Knauß ]
