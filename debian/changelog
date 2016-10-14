@@ -1,12 +1,20 @@
-kcoreaddons (5.27.0-1~2.gbpdf0f90) UNRELEASED; urgency=medium
+kcoreaddons (5.27.0-1~3.gbpa6a6aa) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @df0f9006020c616e1acbf4b32dc199d450cac108 **
+  ** SNAPSHOT build @a6a6aa59e5fde46f2ad782ee9724071f8878e9b3 **
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Oct 2016 10:26:44 +0200
+  [ Scott Kitterman ]
+  * UNRELEASED/unstable and medium/high due to security fix
+
+  [ Sandro Knauß ]
+  * Start a new changelog entry.
+  * Additional patches to complete the fix for CVE-2016-7966
+  * Release to unstable
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 14 Oct 2016 18:31:50 +0200
 
 kcoreaddons (5.26.0-3) unstable; urgency=high
 
