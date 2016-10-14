@@ -4,6 +4,36 @@ kcoreaddons (5.27.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:29:40 +0000
 
+kcoreaddons (5.26.0-3) unstable; urgency=high
+
+  [ Sandro Knauß ]
+  * Additional patches to complete the fix for CVE-2016-7966
+    0003-Add-more-autotests.patch
+    0004-Display-bad-url.patch
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 13 Oct 2016 11:53:36 +0200
+
+kcoreaddons (5.26.0-2) unstable; urgency=high
+
+  [ Sandro Knauß ]
+  * Added patches to fix CVE-2016-7966 (Closes: #840547)
+    0001-Fix-very-old-bug-when-we-remove-space-in-url-as-foo-.patch
+    0002-Don-t-convert-as-url-an-url-which-has-a.patch
+    - Fixes CVE-2016-7966
+      https://security-tracker.debian.org/tracker/CVE-2016-7966
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Oct 2016 22:46:43 +0200
+
+kcoreaddons (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:55:53 +0200
+
 kcoreaddons (5.26.0-0neon) xenial; urgency=medium
 
   * New release
