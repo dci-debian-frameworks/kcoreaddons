@@ -1,3 +1,12 @@
+kcoreaddons (5.28.0-1~1.gbpb1c7a6) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b1c7a6a1fa90bbe0d8512270ddd7830e8b09dad2 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:09:16 +0100
+
 kcoreaddons (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
