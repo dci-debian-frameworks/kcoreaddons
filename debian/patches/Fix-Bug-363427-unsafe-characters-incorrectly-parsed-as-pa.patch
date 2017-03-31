@@ -1,0 +1,43 @@
+From: Montel Laurent <montel@kde.org>
+Date: Tue, 17 Jan 2017 07:41:53 +0100
+Subject: Fix Bug 363427 - unsafe characters incorrectly parsed as part of URL
+
+Fix [Please visit our booth 24-25 http://example.com/]
+CCBUG:363427
+---
+ autotests/ktexttohtmltest.cpp | 8 ++++++++
+ src/lib/text/ktexttohtml.cpp  | 2 ++
+ 2 files changed, 10 insertions(+)
+
+diff --git a/autotests/ktexttohtmltest.cpp b/autotests/ktexttohtmltest.cpp
+index f48a31c..0c14623 100644
+--- a/autotests/ktexttohtmltest.cpp
++++ b/autotests/ktexttohtmltest.cpp
+@@ -416,6 +416,14 @@ void KTextToHTMLTest::testHtmlConvert_data()
+    QTest::newRow("url-with-ref-in-[") << "https://www.kde.org[1]"
+                                << KTextToHTML::Options(KTextToHTML::PreserveSpaces)
+                                << "<a href=\"https://www.kde.org\">https://www.kde.org</a>[1]";
++
++   QTest::newRow("url-with-ref-in-[2") << "[http://www.example.org/][whatever]"
++                               << KTextToHTML::Options(KTextToHTML::PreserveSpaces)
++                               << "[<a href=\"http://www.example.org/\">http://www.example.org/</a>][whatever]";
++
++   QTest::newRow("url-with-ref-in-]") << "[Please visit our booth 24-25 http://example.com/]"
++                               << KTextToHTML::Options(KTextToHTML::PreserveSpaces)
++                               << "[Please visit our booth 24-25 <a href=\"http://example.com/\">http://example.com/</a>]";
+ }
+ 
+ 
+diff --git a/src/lib/text/ktexttohtml.cpp b/src/lib/text/ktexttohtml.cpp
+index ecc1d22..d6c1f1c 100644
+--- a/src/lib/text/ktexttohtml.cpp
++++ b/src/lib/text/ktexttohtml.cpp
+@@ -238,6 +238,8 @@ QString KTextToHTMLHelper::getUrl(bool *badurl)
+                 previousCharIsSpace = true;
+             } else if (!previousIsAnAnchor && mText[mPos] == QLatin1Char('[')) {
+                 break;
++            } else if (!previousIsAnAnchor && mText[mPos] == QLatin1Char(']')) {
++                break;
+             } else { // skip whitespace
+                 if (previousCharIsSpace && mText[mPos] == QLatin1Char('<')) {
+                     url.append(QLatin1Char(' '));
