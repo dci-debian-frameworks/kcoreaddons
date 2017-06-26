@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/stable/frameworks/([\d\.]*)/kcoreaddons-(.*)\.tar\.xz
+https://download.kde.org/stable/frameworks/([\d\.]*)/kcoreaddons-(.*)\.tar\.xz
