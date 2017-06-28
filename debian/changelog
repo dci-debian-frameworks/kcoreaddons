@@ -40,6 +40,16 @@ kcoreaddons (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:06:46 +0000
 
+kcoreaddons (5.28.0-2) unstable; urgency=medium
+
+  * Add new upstream patch:
+    Fix-Bug-343275-1-added-at-the-end-of-a-hyperlink.patch
+  * Add new upstream patch:
+    Fix-Bug-363427-unsafe-characters-incorrectly-parsed-as-pa.patch
+  * Add new upstream patch: KDirWatch-fix-memory-leak-on-destruction.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 31 Mar 2017 15:53:53 +0200
+
 kcoreaddons (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

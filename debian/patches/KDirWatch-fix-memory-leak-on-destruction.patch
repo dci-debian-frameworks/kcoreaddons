@@ -1,0 +1,75 @@
+From: David Faure <faure@kde.org>
+Date: Sun, 5 Feb 2017 11:49:07 +0100
+Subject: KDirWatch: fix memory leak on destruction.
+
+Summary:
+The Entry class owns the Client instances, so it should delete the
+remaining instances in its destructor, for the case where they haven't
+been removed one by one. The line of code removeEntries(nullptr) was
+probably means to remove them one by one, but it was a no-op (the code
+for that method doesn't expect nullptr as argument) and it would be
+slow anyway. We don't need to call inotify_remove for every path,
+when we're just cleaning up in a global static after qApp destruction.
+
+Detected by a clang-sanitizer build on http://ci-logs.kde.flaska.net
+and reproduced locally with valgrind.
+
+Test Plan:
+./kdirwatch_*_unittest now passes in valgrind without memory
+leaks being reported
+
+Reviewers: aacid, mpyne
+
+Reviewed By: aacid, mpyne
+
+Subscribers: markg, #frameworks
+
+Tags: #frameworks
+
+Differential Revision: https://phabricator.kde.org/D4439
+---
+ src/lib/io/kdirwatch.cpp | 8 +++++---
+ src/lib/io/kdirwatch_p.h | 3 ++-
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+
+diff --git a/src/lib/io/kdirwatch.cpp b/src/lib/io/kdirwatch.cpp
+index 241aeec..99da809 100644
+--- a/src/lib/io/kdirwatch.cpp
++++ b/src/lib/io/kdirwatch.cpp
+@@ -244,9 +244,6 @@ KDirWatchPrivate::~KDirWatchPrivate()
+ {
+     timer.stop();
+ 
+-    /* remove all entries being watched */
+-    removeEntries(0);
+-
+ #if HAVE_FAM
+     if (use_fam && sn) {
+         FAMClose(&fc);
+@@ -452,6 +449,11 @@ void KDirWatchPrivate::inotifyEventReceived()
+ #endif
+ }
+ 
++KDirWatchPrivate::Entry::~Entry()
++{
++    qDeleteAll(m_clients);
++}
++
+ /* In FAM mode, only entries which are marked dirty are scanned.
+  * We first need to mark all yet nonexistent, but possible created
+  * entries as dirty...
+diff --git a/src/lib/io/kdirwatch_p.h b/src/lib/io/kdirwatch_p.h
+index 8a7da91..33e2404 100644
+--- a/src/lib/io/kdirwatch_p.h
++++ b/src/lib/io/kdirwatch_p.h
+@@ -83,8 +83,9 @@ public:
+     class Entry
+     {
+     public:
++        ~Entry();
+         // instances interested in events
+-        QList<Client *> m_clients;
++        QList<Client *> m_clients; // owned by Entry
+         // nonexistent entries of this directory
+         QList<Entry *> m_entries;
+         QString path;
