@@ -1,9 +1,20 @@
-kcoreaddons (5.35.0-1~) UNRELEASED; urgency=medium
+kcoreaddons (5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * Update watch file
   * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Drop upstream patches
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:33:08 +0200
+  [ Raymond Wooninck ]
+  * Add signing key
+
+  [ Jonathan Riddell ]
+  * add gpg key
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Jul 2017 13:37:06 +0200
 
 kcoreaddons (5.28.0-2) unstable; urgency=medium
 
