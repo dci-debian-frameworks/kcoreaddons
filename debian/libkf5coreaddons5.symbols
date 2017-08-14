@@ -1,8 +1,10 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
+ _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyENS0_18VersionRestrictionE@Base 5.37.0
  _ZN10KAboutData10pluginDataERK7QString@Base 4.97.0
  _ZN10KAboutData10setLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
+ _ZN10KAboutData10setLicenseEN13KAboutLicense10LicenseKeyENS0_18VersionRestrictionE@Base 5.37.0
  _ZN10KAboutData10setVersionERK10QByteArray@Base 4.97.0
  _ZN10KAboutData11setHomepageERK7QString@Base 4.97.0
  _ZN10KAboutData12setOtherTextERK7QString@Base 4.97.0
@@ -88,16 +90,16 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN12KUrlMimeData7setUrlsERK5QListI4QUrlES4_P9QMimeData@Base 4.97.0
  _ZN13KAboutLicense18setLicenseFromPathERK7QString@Base 4.97.0
  _ZN13KAboutLicense18setLicenseFromTextERK7QString@Base 4.97.0
- _ZN13KAboutLicense7PrivateC1ENS_10LicenseKeyEPK10KAboutData@Base 4.100.0
- _ZN13KAboutLicense7PrivateC1EPK10KAboutData@Base 4.97.0
+ _ZN13KAboutLicense7PrivateC1ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
  _ZN13KAboutLicense7PrivateC1ERKS0_@Base 4.97.0
- _ZN13KAboutLicense7PrivateC2ENS_10LicenseKeyEPK10KAboutData@Base 4.100.0
- _ZN13KAboutLicense7PrivateC2EPK10KAboutData@Base 4.97.0
+ _ZN13KAboutLicense7PrivateC2ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
  _ZN13KAboutLicense7PrivateC2ERKS0_@Base 4.97.0
  _ZN13KAboutLicense9byKeywordERK7QString@Base 4.97.0
+ _ZN13KAboutLicenseC1ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
  _ZN13KAboutLicenseC1ENS_10LicenseKeyEPK10KAboutData@Base 4.100.0
  _ZN13KAboutLicenseC1EPK10KAboutData@Base 4.97.0
  _ZN13KAboutLicenseC1ERKS_@Base 4.97.0
+ _ZN13KAboutLicenseC2ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
  _ZN13KAboutLicenseC2ENS_10LicenseKeyEPK10KAboutData@Base 4.100.0
  _ZN13KAboutLicenseC2EPK10KAboutData@Base 4.97.0
  _ZN13KAboutLicenseC2ERKS_@Base 4.97.0
@@ -488,7 +490,9 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK12KAboutPerson4taskEv@Base 4.97.0
  _ZNK13KAboutLicense3keyEv@Base 4.97.0
  _ZNK13KAboutLicense4nameENS_10NameFormatE@Base 4.100.0
+ _ZNK13KAboutLicense4spdxEv@Base 5.37.0
  _ZNK13KAboutLicense4textEv@Base 4.97.0
+ _ZNK13KAboutLicense7Private6spdxIDEv@Base 5.37.0
  _ZNK13KAutoSaveFile10metaObjectEv@Base 4.97.0
  _ZNK13KAutoSaveFile11managedFileEv@Base 4.97.0
  _ZNK13KCompositeJob10hasSubjobsEv@Base 4.97.0
