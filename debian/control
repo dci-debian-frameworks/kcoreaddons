@@ -72,8 +72,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5coreaddons-dev (<< 5.15.0-2~)
-Breaks: libkf5coreaddons-dev (<< 5.15.0-2~)
+Replaces: libkf5coreaddons-dev (<< 5.15.0-2~), libkf5coreaddons-bin-dev
+Breaks: libkf5coreaddons-dev (<< 5.15.0-2~), libkf5coreaddons-bin-dev
 Description: KDE Frameworks 5 addons to QtCore - development files
  KCoreAddons provides classes built on top of QtCore to perform various tasks
  such as manipulating mime types, autosaving files, creating backup files,
