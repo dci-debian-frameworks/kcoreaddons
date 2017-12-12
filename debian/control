@@ -20,13 +20,13 @@ Homepage: http://projects.kde.org/kcoreaddons
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kcoreaddons.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kcoreaddons.git
 
-Package: libkf5coreaddons-bin-dev
+Package: libkf5coreaddons-dev-bin
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5coreaddons-dev (<< 5.15.0-2~)
-Breaks: libkf5coreaddons-dev (<< 5.15.0-2~)
+Replaces: libkf5coreaddons-bin-dev, libkf5coreaddons-dev (<< 5.15.0-2~)
+Breaks: libkf5coreaddons-bin-dev, libkf5coreaddons-dev (<< 5.15.0-2~)
 Description: KDE Frameworks 5 addons to QtCore - development files
  KCoreAddons provides classes built on top of QtCore to perform various tasks
  such as manipulating mime types, autosaving files, creating backup files,
@@ -35,7 +35,7 @@ Description: KDE Frameworks 5 addons to QtCore - development files
  .
  This package is part of KDE Frameworks 5.
  .
- This package contains the binary development files for KCoreAddons.
+ This package is an implementation detail for KCoreAddons.
 
 Package: libkf5coreaddons-data
 Architecture: all
@@ -57,14 +57,15 @@ Package: libkf5coreaddons-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5coreaddons-bin-dev (= ${binary:Version}),
+Depends: libkf5coreaddons-dev-bin (= ${binary:Version}),
          libkf5coreaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${shlibs:Depends},
-Replaces: libkf5service-dev (<= 5.2.0)
+Replaces: libkf5coreaddons-bin-dev (<< 5.37.0-3~), libkf5service-dev (<= 5.2.0)
 Breaks: baloo-kf5-dev (<< 5.37),
         kded5-dev (<< 5.37),
         libkf5auth-dev (<< 5.37),
+        libkf5coreaddons-bin-dev (<< 5.37.0-3~),
         libkf5crash-dev (<< 5.37),
         libkf5guiaddons-dev (<< 5.37),
         libkf5jobwidgets-dev (<< 5.37),

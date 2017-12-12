@@ -1,5 +1,10 @@
 kcoreaddons (5.37.0-3) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
+  * Rename libkf5coreaddons-bin-dev to libkf5coreaddons-dev-bin.
+    Move the cmake file to the m-a: same -dev package, and add the
+    corresponding Breaks/Replaces.
+    Thanks to Helmut Grohne <helmut@subdivi.de> (Closes: 882692)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jan 2018 17:47:08 +0300
 
