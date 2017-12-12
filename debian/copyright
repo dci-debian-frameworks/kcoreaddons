@@ -8,18 +8,22 @@ Copyright: 2008, Albert Astals Cid <aacid@kde.org>
            2014, Alex Richardson <arichardson.kde@gmail.com>
            2007, Allen Winter <winter@kde.org>
            2007, Bernhard Loos <nhuh.put@web.de>
+           1301-2110, Boston, MA USA
            2000, Charles Samuels <charles@kde.org>
            2014, Daniel Vrátil <dvratil@redhat.com>
            2002, Dave Corrie <kde@davecorrie.com>
+           2016, David Edmundson <davidedmundson@kde.org>
            2013, David Faure <faure+bluesystems@kde.org>
            2005-2014, David Faure <faure@kde.org>
            2014, Developer
            2006, Dominic Battre <dominic@battre.de>
            2000, Espen Sand <espen@kde.org>
+           1951, Franklin Street, Fifth Floor
            1991, Free Software Foundation, Inc
            2008, Friedrich W. H. Kossebau <kossebau@kde.org>
-           1999, Ian Zepp (icszepp@islc.net)
-           2014, Ivan Cukic <ivan.cukic(at)kde.org>
+           2017, Harald Sitter <sitter@kde.org>
+           1999, Ian Zepp <icszepp@islc.net>
+           2014, Ivan Cukic <ivan.cukic@kde.org>
            2006, Jacob R Rideout <kde@jacobrideout.net>
            2004, Jan Schaefer <j_schaef@informatik.uni-kl.de>
            2013, John Layt <jlayt@kde.org>
@@ -32,7 +36,6 @@ Copyright: 2008, Albert Astals Cid <aacid@kde.org>
            2009, Michael Pyne <mpyne@kde.org>
            2014, Montel Laurent <montel@kde.org>
            2015, Nick Shaforostoff <shafff@ukr.net>
-           2006, Nicolas GOUTTE <goutte@kde.org>
            2002-2008, Oswald Buddenhagen <ossi@kde.org>
            1999, Sean Harmer <sh@astro.keele.ac.uk>
            2000, Stephan Kulow <coolo@kde.org>
@@ -41,41 +44,42 @@ Copyright: 2008, Albert Astals Cid <aacid@kde.org>
            2003, Waldo Bastian <bastian@kde.org>
            2000, Espen Sand <espen@kde.org>
            2008, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2017, Harald Sitter <sitter@kde.org>
            2006, Nicolas GOUTTE <goutte@kde.org>
            2010, Teo Mrnjavac <teo@kde.org>
            2009, Adriaan de Groot, Mustapha Abubakar, Ibrahim Dasuna
            2006, Canonical Ltd, and Rosetta Contributors 2006
            1998, Erez Nir <erez-n@actcom.co.il>
-           2004-2009, Free Software Foundation, Inc
+           1998-2017, Free Software Foundation, Inc
            2008-2009, K Desktop Environment
            2005, KDE Armenian translation team
            2005, KDE Russian translation team
-           2000-2003, KDE e.v
+           2000-2004, KDE e.v
            2007, KDE i18n Project for Vietnamese
            1999-2003, Meni Livne <livne@kde.org>
-           2002-2012, This_file_is_part_of_KDE
+           2002-2016, This_file_is_part_of_KDE
            2001, translate.org.za
+           2009-2013, Yasen Pramatarov <yasen@lindeas.com>
+           2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
 License: LGPL-2+
 
-Files: autotests/kcompositejobtest.cpp
+Files: autotests/kaboutdataapplicationdatatest.cpp
+       autotests/kcompositejobtest.cpp
        autotests/kcompositejobtest.h
        autotests/kdelibs4configmigratortest.cpp
        autotests/kdelibs4migrationtest.cpp
        autotests/kjobtest.cpp
        autotests/kjobtest.h
        autotests/kmacroexpandertest.cpp
+       autotests/krandomtest.cpp
        autotests/kshelltest.cpp
        autotests/ktexttohtmltest.cpp
-       src/lib/caching/kshareddatacache.cpp
-       src/lib/caching/kshareddatacache.h
-       src/lib/caching/kshareddatacache_p.h
-       src/lib/caching/kshareddatacache_win.cpp
+       src/lib/caching/*
        src/lib/io/kbackup.cpp
        src/lib/io/kbackup.h
        src/lib/io/kdirwatch.cpp
        src/lib/io/kdirwatch.h
        src/lib/io/kdirwatch_p.h
-       src/lib/io/kdirwatch_win.cpp
        src/lib/io/kmessage.cpp
        src/lib/io/kmessage.h
        src/lib/jobs/kcompositejob.cpp
@@ -93,22 +97,18 @@ Files: autotests/kcompositejobtest.cpp
        src/lib/plugin/kpluginmetadata.h
        src/lib/randomness/krandomsequence.h
        src/lib/text/kstringhandler.h
-       tests/faceicontest.cpp
-       tests/faceicontest.h
-       tests/kdirwatchtest.cpp
-       tests/kdirwatchtest.h
-       tests/kdirwatchtest_gui.cpp
-       tests/kdirwatchtest_gui.h
-       tests/krandomsequencetest.cpp
+       tests/*
        autotests/kaboutdatatest.cpp
 Copyright: 2014, Alex Richardson <arichardson.kde@gmail.com>
            2006-2007, Allen Winter <winter@kde.org>
+           2016, Arne Spiegelhauer <gm2.asp@gmail.com>
            2007, Bernhard Loos <nhuh.put@web.de>
            2010-2014, David Faure <faure@kde.org>
            2006, Dirk Mueller <mueller@kde.org>
            2006, Dirk Stoecker <kde@dstoecker.de>
            2006, Dominic Battre <dominic@battre.de>
            2007, Flavio Castelli <flavio.castelli@gmail.com>
+           2016, Friedrich W. H. Kossebau <kossebau@kde.org>
            2006, Gregory S. Hayes <syncomm@kde.org>
            1999, Ian Zepp <icszepp@islc.net>
            2005, Ingo Kloecker <kloecker@kde.org>
@@ -117,7 +117,7 @@ Copyright: 2014, Alex Richardson <arichardson.kde@gmail.com>
            2013, Kevin Funk <kevin@kfunk.org>
            2006-2007, Kevin Ottens <ervin@kde.org>
            2006, Martin Pool <mbp@canonical.com>
-           2010-2012, Michael Pyne <mpyne@kde.org>
+           2010-2016, Michael Pyne <mpyne@kde.org>
            2006, Michaël Larouche <michael.larouche@kdemail.net>
            2014, Montel Laurent <montel@kde.org>
            2014, Nicolás Alvarez <nicolas.alvarez@gmail.com>
@@ -132,6 +132,7 @@ Copyright: 2014, Alex Richardson <arichardson.kde@gmail.com>
            2005, Thomas Braxton <brax108@cox.net>
            1999, Waldo Bastian <bastian@kde.org>
            2008, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2017, Harald Sitter <sitter@kde.org>
 License: LGPL-2
 
 Files: autotests/alwaysunloadplugin.cpp
@@ -149,69 +150,50 @@ Files: autotests/alwaysunloadplugin.cpp
 Copyright: 2014, Alex Merry <alexmerry@kde.org>
            2013, Sebastian Kügler <sebas@kde.org>
 License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in "/usr/share/common-licenses/GPL-2", and the
- complete text of the GNU General Public License version 3 can be found in
- "/usr/share/common-licenses/GPL-3".
 
 Files: autotests/kpluginfactorytest.cpp
        autotests/kpluginloadertest.cpp
-       autotests/kshareddatacachetest.cpp
+       autotests/kpluginmetadatatest.cpp
        src/desktoptojson/desktoptojson.cpp
        src/desktoptojson/desktoptojson.h
        src/desktoptojson/main.cpp
-       src/lib/plugin/desktopfileparser.h
-       po/ca/kcoreaddons5_qt.po
-       po/ca@valencia/kcoreaddons5_qt.po
-       po/uk/kcoreaddons5_qt.po
+       src/lib/plugin/desktopfileparser_p.h
+       po/ca/*
+       po/ca@valencia/*
+       po/uk/*
        src/lib/plugin/desktopfileparser.cpp
 Copyright: 2014, Alex Merry <alex.merry@kde.org>
            2014, Alex Richardson <arichardson.kde@gmail.com>
            2013-2014, Sebastian Kügler <sebas@kde.org>
-           2014-2015, This_file_is_part_of_KDE
+           2014-2017, This_file_is_part_of_KDE
            2014, Alex Richardson <arichardson.kde@gmail.com>
            2013-2014, Sebastian Kügler <sebas@kde.org>
 License: LGPL-2.1+3+KDEeV
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as published by
- the Free Software Foundation; either version 2.1 of the License or ( at
- your option ) version 3 or, at the discretion of KDE e.V. ( which shall
- act as a proxy as in section 14 of the GPLv3 ), any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1", and the
- complete text of the GNU Lesser General Public License version 3 can be found
- in "/usr/share/common-licenses/LGPL-3".
 
 Files: COPYING-CMAKE-SCRIPTS
-       cmake/FindFAM.cmake
+       cmake/*
 Copyright: 2006, Alexander Neundorf <neundorf@kde.org>
+           2016, Shaheed Haque <srhaque@theiet.org>
+           2016, Stephen Kelly <steveire@gmail.com>
+License: BSD-3-clause
+
+Files: src/lib/io/kfilesystemtype.cpp
+       src/lib/io/kfilesystemtype.h
+Copyright: 2011, David Faure <faure@kde.org>
+License: LGPL-2.1
+
+Files: autotests/kshareddatacachetest.cpp
+Copyright: 2012, David Faure <faure@kde.org>
+License: LGPL-2+3+KDEeV
+
+Files: src/lib/caching/posix_fallocate_mac.h
+Copyright: 2015-2016, R.J.V. Bertin
+License: GPL-2+ or LGPL-2.1+ or MPL-1.1
+
+Files: debian/*
+Copyright: 2014 Michał Zając <quintasan@kubuntu.org>
+License: LGPL-2+
+
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -236,8 +218,101 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Files: autotests/kshareddatacachetest.cpp
-Copyright: 2012, David Faure <faure@kde.org>
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License.
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2", and the
+ complete text of the GNU General Public License version 3 can be found in
+ "/usr/share/common-licenses/GPL-3".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation;
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>
+ .
+ The complete text of the GNU Library General Public License version 2 can be
+ found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2.1 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1 can be
+ found in "/usr/share/common-licenses/LGPL-2.1".
+
 License: LGPL-2+3+KDEeV
  This library is free software; you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
@@ -260,57 +335,6 @@ License: LGPL-2+3+KDEeV
  complete text of the GNU Lesser General Public License version 3 can be found
  in "/usr/share/common-licenses/LGPL-3".
 
-Files: src/lib/io/kfilesystemtype.cpp
-       src/lib/io/kfilesystemtype.h
-Copyright: 2011, David Faure <faure@kde.org>
-License: LGPL-2.1
-
-Files: po/bg/kcoreaddons5_qt.po
-Copyright: 2009-2013, Yasen Pramatarov <yasen@lindeas.com>
-           2006-2009, Zlatko Popov <zlatkopopov@fsa-bg.org>
-License: GPL
- This file is licensed under the GPL.
- .
- On Debian systems, the complete text of the GNU General Public License
- can be found in `/usr/share/common-licenses/GPL'.
-
-Files: debian/*
-Copyright: 2014 Michał Zając <quintasan@kubuntu.org>
-License: LGPL-2+
-
-License: LGPL-2
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation;
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public
- License along with this library. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU Lesser General
- Public License can be found in "/usr/share/common-licenses/LGPL-2".
-
-License: LGPL-2+
- This package is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Lesser General
- Public License can be found in "/usr/share/common-licenses/LGPL-2".
-
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or modify it under
  the terms of the GNU Lesser General Public License version 2.1 as published
@@ -326,3 +350,50 @@ License: LGPL-2.1
  .
  On Debian systems, the complete text of the GNU Lesser General Public License
  version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2.1 of the License or ( at
+ your option ) version 3 or, at the discretion of KDE e.V. ( which shall
+ act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1", and the
+ complete text of the GNU Lesser General Public License version 3 can be found
+ in "/usr/share/common-licenses/LGPL-3".
+
+License: MPL-1.1
+ The contents of this file are subject to the Mozilla Public License Version
+ 1.1 (the "License"); you may not use this file except in compliance with
+ the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+ .
+ Software distributed under the License is distributed on an "AS IS" basis,
+ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ for the specific language governing rights and limitations under the
+ License.
