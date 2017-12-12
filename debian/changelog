@@ -1,8 +1,17 @@
-kcoreaddons (5.41.0-1~) UNRELEASED; urgency=medium
+kcoreaddons (5.41.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.41.0).
+  * Update symbols files
+  * Rename libkf5coreaddons-bin-dev to libkf5coreaddons-dev-bin.
+    Move the cmake file to the m-a: same -dev package, and add the
+    corresponding breaks replaces.
+    Thanks to Helmut Grohne <helmut@subdivi.de> (Closes: 882692)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 10:44:29 -0300
+  [ Helmut Grohne ]
+  * Fix FTCBFS: Annotate libqt5sql5-sqlite with :native. (Closes: 882835)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 11:19:48 -0300
 
 kcoreaddons (5.41.0-0neon) xenial; urgency=medium
 
