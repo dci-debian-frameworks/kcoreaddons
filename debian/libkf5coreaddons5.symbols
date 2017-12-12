@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.37.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyE@Base 4.100.0
  _ZN10KAboutData10addLicenseEN13KAboutLicense10LicenseKeyENS0_18VersionRestrictionE@Base 5.37.0
@@ -34,7 +34,6 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN10KAboutData21setOrganizationDomainERK10QByteArray@Base 4.97.0
  _ZN10KAboutData21unsetCustomAuthorTextEv@Base 4.97.0
  _ZN10KAboutData22applicationDataPointerEv@Base 4.97.0
- _ZN10KAboutData7Private16parseTranslatorsERK7QStringS3_@Base 5.18.0
  _ZN10KAboutData9addAuthorERK7QStringS2_S2_S2_S2_@Base 4.97.0
  _ZN10KAboutData9addCreditERK7QStringS2_S2_S2_S2_@Base 4.97.0
  _ZN10KAboutDataC1ERK7QStringS2_S2_@Base 4.99.0
@@ -90,10 +89,6 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN12KUrlMimeData7setUrlsERK5QListI4QUrlES4_P9QMimeData@Base 4.97.0
  _ZN13KAboutLicense18setLicenseFromPathERK7QString@Base 4.97.0
  _ZN13KAboutLicense18setLicenseFromTextERK7QString@Base 4.97.0
- _ZN13KAboutLicense7PrivateC1ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
- _ZN13KAboutLicense7PrivateC1ERKS0_@Base 4.97.0
- _ZN13KAboutLicense7PrivateC2ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
- _ZN13KAboutLicense7PrivateC2ERKS0_@Base 4.97.0
  _ZN13KAboutLicense9byKeywordERK7QString@Base 4.97.0
  _ZN13KAboutLicenseC1ENS_10LicenseKeyENS_18VersionRestrictionEPK10KAboutData@Base 5.37.0
  _ZN13KAboutLicenseC1ENS_10LicenseKeyEPK10KAboutData@Base 4.100.0
@@ -166,7 +161,6 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN14KJobUiDelegate27setAutoErrorHandlingEnabledEb@Base 4.97.0
  _ZN14KJobUiDelegate29setAutoWarningHandlingEnabledEb@Base 4.97.0
  _ZN14KJobUiDelegate6setJobEP4KJob@Base 4.97.0
- _ZN14KJobUiDelegate7Private9_k_resultEP4KJob@Base 4.97.0
  _ZN14KJobUiDelegateC1Ev@Base 4.97.0
  _ZN14KJobUiDelegateC2Ev@Base 4.97.0
  _ZN14KJobUiDelegateD0Ev@Base 4.97.0
@@ -197,6 +191,7 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN14KPluginFactoryD0Ev@Base 4.99.0
  _ZN14KPluginFactoryD1Ev@Base 4.99.0
  _ZN14KPluginFactoryD2Ev@Base 4.99.0
+ _ZN14KStringHandler13logicalLengthERK7QString@Base 5.41.0
  _ZN14KStringHandler14preProcessWrapERK7QString@Base 4.97.0
  _ZN14KStringHandler6isUtf8EPKc@Base 4.97.0
  _ZN14KStringHandler7obscureERK7QString@Base 4.97.0
@@ -234,7 +229,6 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZN15KPluginMetaDataD2Ev@Base 5.2.0
  _ZN15KPluginMetaDataaSERKS_@Base 5.2.0
  _ZN15KRandomSequence6getIntEj@Base 5.6.0+git20150124.0026+15.04
- _ZN15KRandomSequence7Private4drawEv@Base 4.97.0
  _ZN15KRandomSequence7getBoolEv@Base 4.97.0
  _ZN15KRandomSequence7getLongEm@Base 4.97.0
  _ZN15KRandomSequence7setSeedEi@Base 5.6.0+git20150124.0026+15.04
@@ -492,7 +486,6 @@ libKF5CoreAddons.so.5 libkf5coreaddons5 #MINVER#
  _ZNK13KAboutLicense4nameENS_10NameFormatE@Base 4.100.0
  _ZNK13KAboutLicense4spdxEv@Base 5.37.0
  _ZNK13KAboutLicense4textEv@Base 4.97.0
- _ZNK13KAboutLicense7Private6spdxIDEv@Base 5.37.0
  _ZNK13KAutoSaveFile10metaObjectEv@Base 4.97.0
  _ZNK13KAutoSaveFile11managedFileEv@Base 4.97.0
  _ZNK13KCompositeJob10hasSubjobsEv@Base 4.97.0
