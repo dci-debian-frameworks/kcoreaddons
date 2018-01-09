@@ -1,3 +1,8 @@
+kcoreaddons (5.37.0-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jan 2018 17:47:08 +0300
+
 kcoreaddons (5.37.0-2) sid; urgency=medium
 
   * New revision
