@@ -40,6 +40,18 @@ kcoreaddons (5.38.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:24:29 +0000
 
+kcoreaddons (5.37.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Rename libkf5coreaddons-bin-dev to libkf5coreaddons-dev-bin.
+    Move the cmake file to the m-a: same -dev package, and add the
+    corresponding Breaks/Replaces.
+    Thanks to Helmut Grohne <helmut@subdivi.de> (Closes: 882692)
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 13 Jan 2018 13:37:06 +0300
+
 kcoreaddons (5.37.0-2) sid; urgency=medium
 
   * New revision
