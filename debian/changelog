@@ -1,4 +1,6 @@
-kcoreaddons (5.37.0-3) UNRELEASED; urgency=medium
+kcoreaddons (5.37.0-3) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * Rename libkf5coreaddons-bin-dev to libkf5coreaddons-dev-bin.
@@ -6,7 +8,7 @@ kcoreaddons (5.37.0-3) UNRELEASED; urgency=medium
     corresponding Breaks/Replaces.
     Thanks to Helmut Grohne <helmut@subdivi.de> (Closes: 882692)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jan 2018 17:47:08 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 13 Jan 2018 13:37:06 +0300
 
 kcoreaddons (5.37.0-2) sid; urgency=medium
 
